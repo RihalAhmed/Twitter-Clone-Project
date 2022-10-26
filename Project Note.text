@@ -1,0 +1,30 @@
+font: Helvetica
+
+__________________________________________
+
+color: Background Color -- #15202B
+        Middle Post Content -- #1C2732
+        Brand Color -- #1D9BF0
+        Soto Text Color -- #8899A6
+        search bar color -- #253341
+__________________________________________
+
+Icon:   Logo -- <i class='bx bxl-twitter'></i>
+        Home Icon -- <i class='bx bxs-home-circle'></i>
+        HashTag -- <i class='bx bx-hash'></i>
+        Notification -- <i class='bx bx-bell' ></i>
+        Message Icon -- <i class="fi fi-rr-envelope"></i>
+        Bookmark -- <i class='bx bx-bookmark'></i>
+        List icon -- <i class='bx bx-spreadsheet'></i>
+        Profile icon -- <box-icon name='user'></box-icon>
+        setting icon -- <i class='bx bx-cog'></i>
+        horizontal dots -- <i class='bx bx-dots-horizontal-rounded'></i>
+        search icon -- <i class='bx bx-search'></i>
+
+    post section icon 
+        img icon -- <i class="fi fi-rr-picture"></i>
+        GIF icon -- <i class='bx bxs-file-gif' ></i>
+        poll icon -- <i class='bx bx-poll' ></i>
+        Emoji icon -- <i class='bx bx-happy'></i>
+        time schedule -- <i class='bx bx-calendar-star'></i>
+        location icon -- <i class='bx bxs-map'></i>

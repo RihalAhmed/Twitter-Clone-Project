@@ -1,0 +1,84 @@
+
+.CNborder{
+    border: 0.1px #38444d  solid;
+}
+.CN1layer img{
+    width: 65px;
+    border-radius: 999px;
+    margin: 0 17px 0 0;
+    cursor: pointer;
+}
+.CN1layer{
+    margin: 20px;
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
+    /* align-content:center ; */
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+}
+.dismissBTN{
+    position: relative;
+    top: 22px;
+    left: 363px;
+    color: #8899A6;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.CNtexts{
+    display: flex;
+    cursor: pointer;
+}
+.CNtexts p{
+    margin: 20px 0;
+}
+
+.CNprofilename{
+    font-size: 21px;
+    font-weight: 500;
+}
+.CNuserName{
+    color: #8899A6;
+    padding:0 7px;
+    font-size: 20px;
+}
+.postContentBox{
+    margin: 0 40px 0 99px;
+    padding: 0 50px 0 0;
+}
+.postContentBox img{
+    width: 38vw;
+    border-radius: 20px;
+}
+.tweetText{
+    font-size: 20px;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+
+}
+.postDocCN{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.postDocCN p{
+    /* display: inline; */
+    display: inline;
+    font-size: 17px;
+    padding: 0 0 0 15px;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+}
+.postDocCN i{
+    font-size: 22px;
+    color: #8899A6;
+    cursor: pointer;
+
+}
+#share{
+    padding: 15px 9px 15px 5px;
+
+}
+.mobileTweetBTN{
+    display: none;
+}
+.bottomNavbar{
+    display: none;
+}

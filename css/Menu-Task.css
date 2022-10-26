@@ -1,0 +1,305 @@
+body{
+    /* width: 100vw; */
+    background-color: #15202B;
+    /* height: 100vh; */
+}
+:root {
+    --main-bg-color: #1D9BF0;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    display: flex;
+    justify-items: center;
+}
+
+.container{
+    /* box-sizing: border-box; */
+
+    display: grid;
+    grid-template-columns: 25vw auto 25vw;
+}
+.specialBox{
+    z-index: 1;
+}
+.leftMenu{
+    display: grid;
+    height: 100vh;
+    /* background-color:#15202B; */
+    position: sticky;
+    top: 0;
+    
+    box-sizing: border-box;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+}
+.nav {
+    width: 25vw;
+    font-size: 30px;
+    margin: 10px 80px 0 80px;
+}
+.nav i p{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 23px;
+    display: inline;
+    position: absolute;
+    margin: 0 20px;
+}
+.nav a i{
+    color: white;
+}
+.nav i {
+    padding: 10px 10px;
+}
+
+.navHover{
+    width: 179px;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: revert;
+}
+.navHover:hover{
+    background-color: #384955e8;
+    border-radius: 54px;
+    width: 164px;
+    
+}
+.logo:hover{
+    border-radius: 108px;
+    width: 61px;
+}
+.noti:hover{
+    width: 194px;
+}
+.message:hover{
+    width: 175px;
+}
+.bookmark:hover{
+    width: 181px;
+}
+.list:hover{
+    width: 125px;
+}
+.profileSection:hover{
+    width: 225px;
+}
+
+.tweetBar img{
+    width: 230px;
+    margin: 0 0 0 50px;
+}
+
+.profileSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 3vh;
+    left: 70px;
+    width: 225px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.profileSection img{
+    height: 45px;
+    border-radius: 999px;
+    display: inline;
+}
+.PicName{
+    display: grid;
+    grid-template-columns: 45px auto;
+}
+.profileSection p{
+    text-align: center;
+    display: inline;
+    position: absolute;
+    padding: 10px 0 0 12px;
+
+}
+.pName{
+    color: white;
+}
+.userId{
+    font-size: 12px;
+    margin: 7px 0;
+    display: inline;
+    position: relative;
+    top: 10px;
+    color: #38444d;
+}
+.profileSection i{
+    color: white;
+    font-size: 22px;
+}
+                    /* this is right activation section */
+
+.rightTaskBar{
+    display: block;
+    height:100vh;
+    /* background-color: #15202B; */
+    position: sticky;
+    top: 0;
+
+}
+.rightTaskBar i{
+    color: #8899A6;
+    position: relative;
+    bottom: 35px;
+    font-size: 22px;
+    left: 30px;
+    font-weight: 500;
+    font-weight: lighter;
+
+}
+/* #searchIconright{
+    font-size: 25px;
+} */
+.searchBar{
+    height: 48px;
+    width: 352px;
+    margin: 5px 14px;
+    border-radius: 22px;
+    background-color: #253341;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 0 53px;
+    font-size: 15px
+}
+::-webkit-input-placeholder{
+    color: #fafafa;
+}
+
+                 /* TrendBar */
+
+.trendBar{
+    background-color: #192734e0;
+    height: 551px;
+    width: 351px;
+    margin: 10px 16px;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+    
+}
+.trendBar h2{
+    color: white;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 16px;
+}
+.headTrendBar{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.headTrendBar i{
+    position: relative;
+    top: 20px;
+    left: 60px;
+    cursor: pointer;
+
+}
+.trendTopics{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: #8899A6;
+    padding: 16px;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: revert;
+
+}
+.trendTopics:hover{
+    background-color: #384955e8;
+}
+.trendTopics .trendName{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.trendTopics i{
+    position: relative;
+    top: 16px;
+    left: 55px;
+}
+
+
+                    /* Who follow */
+
+.whoFollow{
+    background-color: #192734e0;
+    height: 388px;
+    width: 351px;
+    margin: 20px 16px;
+    border-radius: 15px;
+}
+.whoFollow h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 16px;
+}
+.showmore{
+    color: var(--main-bg-color);
+    font-size: 16px;
+    padding: 0 20px;
+    cursor: pointer;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+}
+.followPeople1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 18px;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: revert;
+}
+.followPeople1:hover{
+    background-color: #384955e8;
+
+}
+.IDName{
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.followBTN{
+    width: 95px;
+}
+.followPic{
+    height: 50px;
+    border-radius: 999px;
+}
+.ProfileIDname{
+    color: #8899A6;
+    /* line-height: 32px; */
+}
+.ProfileIDname p{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.footer a p{
+    color: #8899A6;
+    display: inline;
+    padding: 0 7px;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+    
+}
+
+.footer a{
+    text-decoration: none;
+
+}

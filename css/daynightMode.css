@@ -1,0 +1,64 @@
+:root {
+    --main-bg-color: #1D9BF0;
+  }
+
+  .DayNightMode{
+    /* position: fixed; */
+    z-index: -1;
+    margin: 0 146px;
+    
+}
+
+.checkboxcls{
+    display: none;
+}
+.check{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 30px;
+    background: var(--main-bg-color);
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: ease-in 0.1s;
+    box-shadow: 0 0 0 10900px #15202B;
+
+}
+input:checked ~ .check
+{
+    background: rgba(193, 209, 224, 0.842);
+    box-shadow:  0 0 0 10900px #000000;
+    /* color: black; */
+
+}
+.check::before{
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background: #ffffff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+input:checked ~ .check::before{
+    transform: translateX(-50px);
+}
+.check::after{
+    content: '';
+    position:absolute;
+    top: 6px;
+    right: 6px;
+    background: #092c3e;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform: translateX(50px);
+
+}
+input:checked ~ .check::after{
+    transform: translateX(0px);
+}

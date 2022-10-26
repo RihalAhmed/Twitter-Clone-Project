@@ -1,0 +1,90 @@
+:root {
+    --main-bg-color: #1D9BF0;
+  }
+element {
+    --soft-color: #8899A6;
+  }
+.middle{
+    box-sizing: border-box;
+    /* background-color: #1C2732; */
+    height: 5350px;
+    color: white;
+    z-index: 2;
+    border: #38444d 1px solid;
+}
+.title{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    position: sticky;
+    top: 0;
+    background-color: #15202bc7;
+    /* filter: blur(1px); */
+}
+.titleProfilepic{
+    display: none;
+}
+.title p{
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: 700;  
+}
+.title p a{
+    text-decoration: none;
+    color: white;
+}
+.title img{
+    height: 22px;
+}
+.postSection{
+    /* background-color: #15202B; */
+    height: 160px;
+    border: #38444d 1px solid;
+
+}
+
+.picTwitte{
+    display: flex;
+    align-items: center;
+
+}
+.picTwitte img{
+    height: 50px;
+    border-radius: 999px;
+    margin: 14px;
+    
+}
+.twitteHere{
+    color: white;
+    width: 568px;
+    height: 64px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    outline: none;
+
+}
+::-webkit-input-placeholder{
+    color: #677783;
+}
+hr{
+    margin: 0 70px;
+}
+.twitteDoc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 75px;
+
+
+}
+.twitteDoc i{
+    font-size: 22px;
+    padding: 0 5px;
+    color: var(--main-bg-color);
+    cursor: pointer;
+}
+.twitteBar img{
+    width: 85px
+}

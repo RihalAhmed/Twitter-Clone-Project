@@ -1,0 +1,135 @@
+:root {
+    --main-bg-color: #1D9BF0;
+  }
+
+
+/* THis media quarey is for tab/ipab screen */
+@media (min-width: 480px) and (max-width:1280px){
+    .container{
+        grid-template-columns: 20vw auto 25vw;
+    }
+    .nav i p{
+        display: none;
+    }
+    .nav{
+        margin: 0;
+        width: auto;
+        float: right;
+    }
+    .tweetBar{
+        display: none;
+    }
+    .profileSection{
+        left: 14.5vw;
+    }
+    .navHover:hover{
+        background-color: #384955e8;
+        border-radius: 54px;
+        width: 50px;
+        
+    }
+    .profileSection:hover{
+        width: 22px;
+    }
+    .check{
+        left: 2vw;
+    }
+    .profileSection i{
+        display: none;
+    }
+    .name{
+        display: none;
+    }
+}
+
+/* THis media quarey is for Mobile screen */
+  @media (max-width:1100px){
+    .middle{
+        
+        display: block;
+        width: 100vw;
+    }
+    .leftMenu{
+        /* display: none; */
+        position: absolute;
+        left: -100%;
+    }
+    .rightTaskBar{
+        display: none;
+    }
+    .title{
+        height: 35px;
+
+    }
+    .title img {
+        height: 36px;
+        border-radius: 50px;
+    }
+    .titleStar{
+        height: 25px;
+    }
+    .titleProfilepic{
+        display: inline;
+    }
+    .postSection{
+        display: none;
+    }
+    .CN1layer img{
+        margin: 0 9px 0 0;
+    }
+    .CN1layer {
+        margin: 20px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .postContentBox {
+        margin: 15px;
+        padding: 0 0 0 10px;
+    }
+    .postContentBox img{
+        width: 85vw;
+
+    }
+    .postDocCN p {
+        padding: 0;
+    }
+    .postDocCN i{
+        padding: 15px;
+    }
+    #share{
+        padding: 15px 0px 15px 0px;
+    }
+    .mobileTweetBTN {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        background-color:var(--main-bg-color);
+        top: 86vh;
+        left: 80vw;
+        color: white;
+        z-index: 5;
+        border-radius: 70px;
+        cursor: pointer;
+        font-size: 34px;
+    }
+    .bottomNavbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #111b25;
+        border: #38444d 1px solid;
+        position: fixed;
+        width: 100vw;
+        height: 60px;
+        box-sizing: border-box;
+    /* background-color: var(--main-bg-color); */
+        top: 94vh;
+        left: 0;
+    }
+    .bottomNavbar i{
+        font-size: 26px;
+    }
+}
